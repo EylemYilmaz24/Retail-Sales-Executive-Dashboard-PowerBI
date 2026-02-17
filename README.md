@@ -1,3 +1,7 @@
+## Dashboard Preview
+
+![Dashboard](dashboard-preview.png)
+
 Retail Sales Executive Dashboard (Power BI)
 Project Overview
 
