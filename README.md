@@ -1,4 +1,3 @@
-## Dashboard Preview
 
 ![Dashboard](dashboard-preview.png)
 
