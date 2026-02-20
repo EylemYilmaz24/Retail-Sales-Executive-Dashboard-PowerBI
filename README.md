@@ -1,7 +1,7 @@
-
 ![Dashboard](dashboard-preview.png)
 
-Retail Sales Executive Dashboard (Power BI)
+## Retail Sales Executive Dashboard (Power BI)
+
 Project Overview
 
 This project is an executive-level business intelligence dashboard built in Power BI using the Online Retail II dataset.
@@ -67,5 +67,17 @@ Customer segmentation (Active / At Risk / Lost)
 MoM growth calculation
 
 Retention / Cohort analysis
+
+---
+
+## Customer Analysis Dashboard
+
+![Customer Analysis](customer-analysis.png)
+
+### Key Insights
+
+- Active customers represent the largest segment.
+- Lost customers still generate significant historical revenue.
+- At-Risk customers indicate potential churn risk and reactivation potential.
 
 Executive layout refinement
