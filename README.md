@@ -1,18 +1,28 @@
-# Retail Sales Analysis – Power BI Project
+# Retail Sales Business Intelligence Solution – Power BI
 
 ![Executive Dashboard](dashboard-preview.png)
 
+---
+
 ## 📊 Project Overview
 
-This project is a portfolio-level Business Intelligence solution built in Power BI using the Online Retail II dataset.
+This project is a Business Intelligence solution developed in Power BI using the **Online Retail II** dataset (UK-based e-commerce transactional data).
 
-The objective is to analyze revenue performance, customer behavior, and product dynamics through structured dashboards and business-driven insights.
+The objective is to transform raw transactional data into executive-level dashboards that support:
+
+- Revenue performance analysis  
+- Customer segmentation  
+- Product intelligence  
+- Data-driven decision making  
+
+The solution analyzes over **1 million transaction records** and presents structured business insights through three analytical dashboard pages.
 
 ---
 
 ## 📁 Dataset
 
-Online Retail II (UK-based e-commerce transactional dataset)
+**Online Retail II (Kaggle)**  
+UK-based e-commerce transactional dataset (2009–2011)
 
 Includes:
 
@@ -32,8 +42,11 @@ Clean dataset size: ~1,041,000 rows
 - Appended 2009–2010 and 2010–2011 datasets  
 - Removed returns (negative quantities)  
 - Removed zero / negative unit prices  
+- Filtered invalid transactions  
 - Created calculated column:  
-  `Revenue = Quantity × UnitPrice`
+  `Revenue = Quantity × UnitPrice`  
+- Built DAX measures for KPI calculations  
+- Structured data model for reporting  
 
 ---
 
@@ -41,17 +54,19 @@ Clean dataset size: ~1,041,000 rows
 
 ### Key KPIs
 
-- Total Revenue  
-- Total Orders (Distinct Invoice Count)  
+- Total Revenue ($21M+)  
+- Total Orders (40K+)  
 - Average Order Value (AOV)  
 
 ### Visual Analysis
 
 - Monthly Revenue Trend  
 - Revenue by Country  
-- Executive KPI layout  
+- Executive KPI summary layout  
 
-This dashboard provides a high-level revenue performance overview suitable for management reporting.
+This dashboard provides a high-level revenue performance overview suitable for executive and management reporting.
+
+It enables monitoring of sales trends, pricing effectiveness, and regional revenue distribution.
 
 ---
 
@@ -61,11 +76,13 @@ This dashboard provides a high-level revenue performance overview suitable for m
 
 ### Key Insights
 
-- Active customers represent the largest segment.  
-- Lost customers still account for a meaningful portion of historical revenue.  
-- At-Risk customers indicate reactivation potential and churn risk.  
+- Active customers represent the largest revenue-generating segment.  
+- Lost customers still contribute significant historical revenue.  
+- At-Risk customers indicate churn risk and reactivation opportunities.  
 
-This page focuses on customer segmentation and behavioral analysis.
+This page focuses on **customer segmentation, retention analysis, and revenue distribution by customer status**.
+
+It supports strategic decisions related to marketing targeting and customer lifecycle management.
 
 ---
 
@@ -80,17 +97,39 @@ This page focuses on customer segmentation and behavioral analysis.
 - Revenue is widely distributed across the product portfolio  
 - Product segmentation highlights high- and low-performing SKUs  
 
-This analysis reveals a diversified product structure rather than strong revenue concentration in a limited number of products.
+Includes Pareto analysis to evaluate revenue concentration.
+
+This analysis reveals a diversified product structure rather than revenue dependency on a limited set of SKUs.
+
+---
+
+## 💼 Business Impact
+
+This Power BI solution transforms raw transactional data into actionable business insights.
+
+The dashboards enable stakeholders to:
+
+- Monitor revenue performance and sales trends in real time  
+- Identify revenue concentration and high-performing products  
+- Detect seasonal fluctuations  
+- Evaluate pricing strategy via AOV tracking  
+- Analyze customer retention and reactivation potential  
+- Support data-driven strategic decision making in e-commerce operations  
+
+The project demonstrates practical Business Intelligence implementation aligned with real-world reporting needs.
 
 ---
 
 ## 🔎 Skills Demonstrated
 
-- Data cleaning & transformation (Power Query)  
-- DAX measures and calculated columns  
-- KPI design and executive layout  
-- Revenue concentration (Pareto) analysis  
-- Customer and product segmentation  
+- Data Cleaning & Transformation (Power Query)  
+- Data Modeling  
+- DAX Measures & Calculated Columns  
+- KPI Development  
+- Dashboard Design & Data Visualization  
+- Revenue & Pareto Analysis  
+- Customer & Product Segmentation  
+- Business Intelligence Reporting  
 
 ---
 
@@ -99,3 +138,5 @@ This analysis reveals a diversified product structure rather than strong revenue
 - Power BI  
 - DAX  
 - Power Query  
+- Excel  
+- SQL (Data Preparation Concepts)  
